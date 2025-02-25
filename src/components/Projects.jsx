@@ -8,7 +8,7 @@ const projects = [
     description: "A personal portfolio website built with React.js.",
     techStack: "React.js, CSS",
     github: "https://github.com/Vishal-Kumar2006/Portfolio",
-    demo: "",
+    demo: "https://portfolio-eight-theta-50.vercel.app",
   },
 
   {
