@@ -1,0 +1,60 @@
+.footer {
+    position: static;
+    bottom: 0;
+    background-color: #1a1a1a;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 4rem;
+}
+
+.footer-links {
+    margin: 6rem;
+    justify-content: space-between;
+}
+
+.footer-links a{
+    text-decoration: none;
+    margin: 2rem;
+    font-size:2rem;
+    color: rgb(103, 103, 103);
+    animation: appear 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footer-socials a {
+    margin: 5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    animation: appear 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    margin-bottom: 10rem;
+}
+
+#linkedin-text {
+    color: #0077B5 ;
+}
+
+#github-text {
+    color: #948e8e ;
+}
+
+#email-text {
+    color: #D14836;
+}

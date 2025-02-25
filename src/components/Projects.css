@@ -1,0 +1,111 @@
+.Projects{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+   
+}
+
+.headings {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+.sub-heading {
+    color: rgba(255, 255, 255, 0.928);
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.projects {
+    /* border: 2px solid white; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.project {
+    /* border: 2px solid white; */
+    margin: 8rem 1.5rem 8rem 1.5rem;
+    display: flex;
+    justify-content: left;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    box-shadow: 0 0 20px rgb(59, 59, 59);
+    transition: 0.3s ease-in-out;
+}
+
+.project:hover {
+    box-shadow: 0 0 30px rgb(140, 144, 255);
+}
+
+.project-img {
+    border: 2px solid white;
+    /* margin: 1rem; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+}
+
+.details {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 0.2rem 1rem;
+}
+
+.project-name {
+    color: rgba(255, 255, 255, 0.939);
+    font-size: 3rem;
+}
+
+.project-desc {
+    color: rgba(255, 255, 255, 0.895);
+    /* border: 2px solid white; */
+    margin: 6rem 0 0 0;
+}
+
+.project-tech-stack {
+    margin: 0.2rem;
+    margin-left: 0;
+    color: white;
+}
+
+
+.project-link {
+   background-color: #ffffffa6;
+   border: none;
+   transition: 0.2s;
+   border-radius: 5px;
+   width: fit-content;
+   margin: 1rem;
+   color: #0000ff;
+}
+
+.project-link:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+ }
+
+.project-link a {
+    font-size: 2rem;
+    padding: 0 2rem 0 2rem;
+    text-decoration: none;
+}
+
+.project-link a:hover {
+   color: black;
+}

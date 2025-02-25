@@ -1,0 +1,200 @@
+
+
+.Home {
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.intro {
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_1280.jpg");
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+
+.heading-intro {
+    font-size: 4rem;
+    text-align: left;
+    justify-content: left;
+    color: white;
+}
+
+.auto-type{
+    color: rgba(255, 251, 0, 0.875);
+    font-size: 2.5rem;
+}
+
+.description {
+    width: 80%;
+    margin: 4rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight:50;
+    color: white;
+}
+
+.links {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.linksBtn {
+    margin: 1rem;
+    background-color: rgb(18, 18, 18);
+    color: rgb(159, 159, 159);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 30px black;
+    transition: 0.4s;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.linksBtn a {
+   font-size: 1rem;
+   color: white;
+}
+
+
+.linksBtn:hover {
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(34, 34, 34);
+    border-radius: 1rem;
+}
+
+
+.tech-stacks {
+    background-color: none;
+}
+
+.tech-stacks h1 {
+    text-align: center;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    font-size: 4rem;
+    margin: 2rem;
+    color: rgb(220, 220, 220);
+}
+
+
+.tech-stacks h2 {
+    text-align: center;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    font-size: 3rem;
+    margin: 2rem;
+    color: rgb(168, 168, 168);
+}
+
+.logo-icon {
+   color: rgb(254, 254, 254);
+   font-size: 4rem;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+}
+
+.languages {
+    display: flex;
+    margin: 3rem;
+    /* margin-top: 3rem; */
+    /* border: 2px solid white; */
+    padding: 3rem;
+    justify-content: space-evenly ;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.logo-icon {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: appear 1s forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+    padding: 2rem 3rem 0rem 3rem;
+    border-radius: 0.5rem;
+    color: rgb(108, 108, 108);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.logo-icon:hover {
+   cursor: pointer;
+   background-color: #666666;
+}
+
+.logo-name {
+    font-size: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.java {
+    color: #007396;
+    box-shadow: 0 0 30px #007396;
+}
+
+.c {
+    color:  #A8B9CC;
+    box-shadow: 0 0 30px #A8B9CC;
+}
+
+
+.cpp {
+    color: #00599C;
+    box-shadow: 0 0 30px #00599C;
+}
+
+.html {
+    color: #E34F26;
+    box-shadow: 0 0 30px #E34F26;
+}
+.css {
+    color: #1572B6;
+    box-shadow: 0 0 30px #1572B6;
+}
+.js {
+    color: #F7DF1E;
+    box-shadow: 0 0 30px #F7DF1E;
+}
+.react {
+    color: #61DAFB;
+    box-shadow: 0 0 30px #61DAFB;
+}
+
+.node {
+    color:#339933;
+    box-shadow: 0 0 30px #339933;
+}
+.express {
+    color:#000000;
+    box-shadow: 0 0 30px #000000;
+    background-color: #313131;
+}
+
+.mongodb {
+    color:#47A248;
+    box-shadow: 0 0 30px #47A248;
+}
+.mysql {
+    color: #4479A1;
+    box-shadow: 0 0 30px #4479A1;
+}

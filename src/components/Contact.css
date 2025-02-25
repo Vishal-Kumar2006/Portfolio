@@ -1,0 +1,78 @@
+.contact {
+    padding-top: 10rem;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-heading {
+    color: rgb(199, 199, 199);
+    /* animation: ; */
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    margin: 5rem;
+    font-size: 6rem;
+    padding: 2rem;
+    animation: appear 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    text-decoration: none;
+}
+
+
+#email {
+    color: #D14836;
+    box-shadow: 0 0 1rem #c26e62;
+    transition: 0.3s;
+}
+
+#email:hover {
+    box-shadow: 0 0 3rem #c26e62;
+    border-radius: 1rem;
+}
+
+#github {
+    color: #2e2e2e ;
+    box-shadow: 0 0 1rem #948e8e ;
+    transition: 0.4s;
+}
+
+#github:hover {
+    box-shadow: 0 0 3rem  #948e8e ;
+    border-radius: 1rem;
+}
+
+#leetcode {
+    color: #FFA116 ;
+    box-shadow: 0 0 1rem  #FFA116 ;
+    transition: 0.3s;
+}
+
+#leetcode:hover {
+    box-shadow: 0 0 3rem  #FFA116 ;
+    border-radius: 1rem;
+}
+
+#linkedin {
+    color: #0077B5 ;
+    box-shadow: 0 0 1rem  #80c7ed ;
+    transition: 0.4s;
+}
+
+#linkedin:hover {
+    box-shadow: 0 0 3rem  #0077B5 ;
+    border-radius: 1rem;
+}

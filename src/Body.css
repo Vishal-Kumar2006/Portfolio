@@ -1,0 +1,37 @@
+.Body {
+  /* background-image: url("https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_1280.jpg"); */
+  background-color: rgb(18, 18, 18);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.scroll-slide {
+  /* background-color: #340000; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.3;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+
+/* 
+.scroll-slide {
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%;
+} */
