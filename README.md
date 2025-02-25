@@ -1,8 +1,14 @@
-# React + Vite
+🚀 Vishal's Portfolio Website
+Welcome to my personal portfolio website! This is a fully responsive and dynamic web application that showcases my skills, projects, and contact information. Built using the MERN stack, this portfolio highlights my journey as a Full-Stack Developer and Problem Solver with 600+ LeetCode solutions!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo : https://portfolio-eight-theta-50.vercel.app
 
-Currently, two official plugins are available:
+📌 Tech Stack Used
+Frontend: React.js, HTML, CSS, JavaScript
+Other Tools: React Router,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Features
+✅ Modern & Responsive UI – Built with React.js for a smooth experience
+✅ Dynamic Content – Showcases my projects, skills, and experience
+✅ Smooth Animations – Smooth and Fluent Animation
+✅ Contact Form – Users can easily get in touch with me
