@@ -21,6 +21,13 @@
     display: flex;
     flex-direction: column;
 }
+.connect-link {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 .links a {
     margin: 5rem;
@@ -75,4 +82,17 @@
 #linkedin:hover {
     box-shadow: 0 0 3rem  #0077B5 ;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .connect-link {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .connect-link p {
+        font-size: 4.5rem;
+    }
 }
