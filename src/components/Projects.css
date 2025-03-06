@@ -109,3 +109,14 @@
 .project-link a:hover {
    color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -21,22 +21,22 @@ const Contact = () => {
       </div>
 
       <div className="links">
-        <a href={links.github} id='github'>
+        <a href={links.github} id='github' className="connect-link">
           <FaGithub />
           <p>Github</p>
         </a>
 
-        <a href={links.linkedIn} id='linkedin'>
+        <a href={links.linkedIn} id='linkedin' className="connect-link">
           <FaLinkedin />
           <p>Linked In</p>
         </a>
 
-        <a href={`mailto:${links.email}`} id='email'>
+        <a href={`mailto:${links.email}`} id='email' className="connect-link">
           <SiGmail />
           <p>Email</p>
         </a>
 
-        <a href={links.leetcode} id='leetcode'>
+        <a href={links.leetcode} id='leetcode' className="connect-link">
           <SiLeetcode />
           <p>LeetCode</p>
         </a>

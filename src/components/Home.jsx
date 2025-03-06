@@ -25,7 +25,10 @@ const Home = () => {
       strings: [
         "Full-Stack Developer",
         "JAVA - DSA",
-        "600 + LeetCode Problems",
+        "Solved 600 + LeetCode Problems",
+        "MERN Stack Developer",
+        "Frontend and Backend Developer",
+        
       ],
       typeSpeed: 20,
       backDelay: 2000,
@@ -38,7 +41,8 @@ const Home = () => {
     <div className="Home">
       <div className="intro">
         <h1 className="heading-intro">
-          Hi, I'm Vishal | <span className="auto-type" ref={el} />{" "}
+          <p> Hi, I'm Vishal </p>
+          <span className="auto-type" ref={el} />
         </h1>
         <p className="description">
           I specialize in React, JavaScript, and modern web development,
@@ -50,16 +54,9 @@ const Home = () => {
       <br />
       <br />
 
-      <div className="links">
-        <button className="linksBtn">
-          <Link to={"/contact"}> Connect Me</Link>
-        </button>
-
-        <button className="linksBtn">
-          <Link to={"/projects"}>See my Work</Link>
-        </button>
-
-      </div>
+      <Link to="/contact" className="linksBtn">Connect Me</Link>
+      <Link to="/projects" className="linksBtn">See my Work</Link>
+     
       <div className="tech-stacks">
         <h1>Tech Stack & Skills I Work With </h1>
         <h2>
