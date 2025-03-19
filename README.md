@@ -3,27 +3,36 @@ Welcome to my personal portfolio website! This is a fully responsive and dynamic
 
 This portfolio represents my journey as a Full-Stack Developer and Problem Solver with 600+ LeetCode solutions.
 
-🔗 Live Demo
-Check it out here: https://portfolio-eight-theta-50.vercel.app/
 
-📌 Tech Stack Used
-Frontend:
+<h2>🔗 Live Demo: https://portfolio-eight-theta-50.vercel.app/</h2>
+
+<h2>📌 Tech Stack Used</h2>
+
+<h2>Frontend:</h2>
+
 React.js – For a dynamic and interactive UI
+
 HTML, CSS, JavaScript – For structuring and styling
+
 React Router – For seamless navigation
 
-📂 Features
+<h2>📂 Features</h2>
+
 ✅ Modern & Responsive UI – Built with React.js, ensuring a seamless user experience on all devices
+
 ✅ Dynamic Content – Showcases my projects, skills, and experience dynamically
+
 ✅ Smooth Animations – Engaging UI with fluid animations for a better experience
+
 ✅ Contact Form – Users can easily reach out to me via the integrated contact form
+
 ✅ SEO Optimized – Improved search engine visibility with proper meta tags
 
-🛠 Installation & Setup
+<h2>🛠 Installation & Setup</h2>
 Clone the repository
 git clone https://github.com/Vishal-Kumar2006/Portfolio.git
-  
-Install dependencies
+
+<h2>Install dependencies</h2>
 ## Dependencies
 
 The following dependencies are required for this project:
@@ -52,21 +61,29 @@ These are used during development:
 To install these dependencies, run
 npm install
 
+<h2>To Run the project</h2>
 
-To Run the project
 npm run dev  
 
 Open in browser
 Visit http://localhost:5173
 📸 Screenshots
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/70df3948-3381-4ae4-b41b-676e4a4eb70c" />
+
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/8d29caff-ef11-4aad-84f0-79183c1be3f4" />
+
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/c885e9d6-7826-4895-abd4-07d3e25e4e1c" />
+
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/5691f142-314a-46d2-bdc7-787ac0ab3eb1" />
 
-🔥 Future Updates
+<h2>🔥 Future Updates</h2>
+
 Dark Mode – Toggle between light and dark themes
+
 More Projects – Regularly updating my portfolio with new work
+
 Blog Section – Share insights on tech, coding, and experiences
-📜 License
+
+<h2>📜 License</h2>
+
 This project is open-source and available under the MIT License.
