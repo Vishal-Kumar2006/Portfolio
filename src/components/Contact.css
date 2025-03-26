@@ -96,3 +96,9 @@
         font-size: 4.5rem;
     }
 }
+
+@media screen and (max-width: 440px){
+    .connect-link p {
+        font-size: 3rem;
+    }
+}

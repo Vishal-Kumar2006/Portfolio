@@ -79,17 +79,20 @@ const Projects = () => {
                   Tech Stack: {project.techStack}
                 </p>
                 <div className="project-links">
-                  <button className="project-link">
-                    <a href={project.github} target="_blank">
-                      GitHub
-                    </a>
-                  </button>
-
-                  <button className="project-link">
-                    <a href={project.demo || "#"} target="_blank">
-                      {project.demo ? "Live Demo" : "Not Deployed"}
-                    </a>
-                  </button>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    className="project-link"
+                  >
+                    GitHub
+                  </a>
+                  
+                  <a
+                    href={project.demo || "https://github.com/Vishal-Kumar2006"}
+                    className="project-link"
+                  >
+                    {project.demo ? "Live Demo" : "Not Deployed"}
+                  </a>
                 </div>
               </div>
             </div>
