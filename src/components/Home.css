@@ -52,7 +52,7 @@
 .linksBtn {
     display: inline-block;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 1rem;
     margin: 2rem;
     color: rgb(122, 122, 122);
@@ -74,28 +74,21 @@
 
 
 .tech-stacks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     background-color: none;
 }
 
 .tech-stacks h1 {
-    text-align: center;
-    animation: appear 1s linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    font-size: 4rem;
-    margin: 2rem;
+    font-size: 3rem;
     color: rgb(220, 220, 220);
 }
 
 
 .tech-stacks h2 {
-    text-align: center;
-    animation: appear 1s linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    font-size: 3rem;
-    margin: 2rem;
     color: rgb(168, 168, 168);
+    font-size: 2rem;
 }
 
 .logo-icon {
@@ -108,11 +101,10 @@
 
 .languages {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin: 3rem;
-    /* margin-top: 3rem; */
-    /* border: 2px solid white; */
-    padding: 3rem;
-    justify-content: space-evenly ;
+    justify-content: center;
     animation: appear 1s linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -126,8 +118,9 @@
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 
-    padding: 2rem 3rem 0rem 3rem;
+    padding: 1rem 2rem 0rem 2rem;
     border-radius: 0.5rem;
+    margin: 2rem;
     color: rgb(108, 108, 108);
     box-shadow: 0 0 10px rgb(0, 0, 0);
     transition: 0.3s;
@@ -139,7 +132,8 @@
 }
 
 .logo-name {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -183,9 +177,9 @@
     box-shadow: 0 0 30px #339933;
 }
 .express {
-    color:#000000;
-    box-shadow: 0 0 30px #000000;
-    background-color: #313131;
+    color:#171717;
+    box-shadow: 0 0 30px #7e7e7e;
+    background-color: #262626;
 }
 
 .mongodb {
@@ -198,7 +192,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .heading-intro {
         font-size: 2.5rem;
         text-align: left;
@@ -213,7 +207,6 @@
         margin: 1rem 0;
     }
 
-
     .linksBtn {
         font-size: 1rem;
 
@@ -226,13 +219,12 @@
     }
 
     .logo-icon {
-        font-size: 3rem;
-        padding: 1rem;
-        margin: 0.5rem;
+        font-size: 5rem;
+        margin: 1rem;
     }
 
     .logo-name {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 }
 

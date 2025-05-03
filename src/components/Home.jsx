@@ -2,6 +2,9 @@ import "./Home.css";
 import Typed from "typed.js";
 import React from "react";
 import { Link } from "react-router-dom";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import {
   SiC,
   SiCplusplus,
@@ -60,7 +63,6 @@ const Home = () => {
       <div className="tech-stacks">
         <h1>Tech Stack & Skills I Work With </h1>
         <h2>
-          {" "}
           From frontend to backend, the technologies that power my development.
         </h2>
         <div className="languages">
@@ -125,6 +127,10 @@ const Home = () => {
         <br />
         <br />
       </div>
+
+      <About/>
+      <Projects/>
+      <Contact/>
     </div>
   );
 };
