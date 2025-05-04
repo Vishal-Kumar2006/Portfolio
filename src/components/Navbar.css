@@ -1,10 +1,10 @@
 .navbar {
-    background-color: #0000009a;
-    backdrop-filter: blur(8px);
+    background-color: #3535351f;
+    backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 2px 2px 3rem rgb(0, 0, 41);
+    box-shadow: 2px 2px 3rem rgb(0, 0, 147);
     padding-left: 1rem;
 }
 
@@ -35,12 +35,11 @@
     display: flex;
     list-style: none;
     transition: 0.2s;
+    z-index: 100;
 }
 
 .option:hover {
     border-radius: 0.3rem;
-    background-color: #15151501;
-    box-shadow: 0 0 30px rgb(143, 143, 143);
     color: white;
 }
 
@@ -85,13 +84,14 @@
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: rgba(30, 30, 30, 0.95);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 10px rgba(0, 0, 255, 0.381);
+        background-color: #222222;
         padding: 1rem 0;
     }
 
     .nav-links.open {
         display: flex;
+        
     }
 
     .option {
