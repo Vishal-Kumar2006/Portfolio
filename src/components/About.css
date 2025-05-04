@@ -129,11 +129,14 @@
     }
 
     .profile-img {
-        display: inline-flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
         justify-content: center;
         align-items: center;
         text-align: center;
-        /* height: 15rem; */
+        transition: 0.3s ease-in-out;
     }
 
 }
