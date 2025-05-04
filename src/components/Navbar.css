@@ -48,11 +48,14 @@
     text-decoration: none;
     font-size: 2rem;
     padding: 1rem;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .option a:hover {
     color: rgb(255, 255, 255); 
+    border-radius: 0.3rem;
+    background-color: #00000061;
+    backdrop-filter: blur(10px);
 }
 
 /* Mobile & Tablet Styles */
@@ -67,6 +70,10 @@
 
 /* Mobile View */
 @media screen and (max-width: 768px) {
+    .navbar {
+        box-shadow: 2px 2px 1.5rem rgb(0, 0, 104);
+    }
+
     .logo {
         font-size: 1.8rem;
     }
