@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 0.8rem;
 }
 
 
@@ -42,7 +43,7 @@
 
 #email {
     color: #D14836;
-    box-shadow: 0 0 1rem #c26e62;
+    box-shadow: 0 0 1.5rem #ff8673;
     transition: 0.3s;
 }
 
@@ -53,18 +54,18 @@
 
 #github {
     color: #2e2e2e ;
-    box-shadow: 0 0 1rem #948e8e ;
+    box-shadow: 0 0 1.5rem #efefef ;
     transition: 0.4s;
 }
 
 #github:hover {
-    box-shadow: 0 0 3rem  #948e8e ;
+    box-shadow: 0 0 3rem  #9d9d9d ;
     border-radius: 1rem;
 }
 
 #leetcode {
     color: #FFA116 ;
-    box-shadow: 0 0 1rem  #FFA116 ;
+    box-shadow: 0 0 1.5rem  #ff9900 ;
     transition: 0.3s;
 }
 
@@ -75,7 +76,7 @@
 
 #linkedin {
     color: #0077B5 ;
-    box-shadow: 0 0 1rem  #80c7ed ;
+    box-shadow: 0 0 1.5rem  #00a6ff ;
     transition: 0.4s;
 }
 

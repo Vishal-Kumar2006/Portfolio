@@ -199,6 +199,10 @@
         display: block;
     }
 
+    .auto-type {
+        font-size: 1.5rem;
+    }
+
     .description {
         font-size: 1.2rem;
         text-align: left;
@@ -206,6 +210,7 @@
         width: 100%;
         margin: 1rem 0;
     }
+
 
     .linksBtn {
         font-size: 1rem;
@@ -234,7 +239,7 @@
     }
 
     .auto-type {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .description {
