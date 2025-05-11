@@ -31,7 +31,6 @@ const Home = () => {
         "Solved 600 + LeetCode Problems",
         "MERN Stack Developer",
         "Frontend and Backend Developer",
-        
       ],
       typeSpeed: 20,
       backDelay: 2000,
@@ -41,96 +40,103 @@ const Home = () => {
   });
 
   return (
-    <div className="Home">
-      <div className="intro">
-        <h1 className="heading-intro">
-          <p> Hi, I'm Vishal </p>
-          <span className="auto-type" ref={el} />
-        </h1>
-        <p className="description">
-          I specialize in React, JavaScript, and modern web development,
-          building fast and dynamic UIs. With expertise in MERN stack, Node.js,
-          Express.js, and MongoDB, I craft seamless full-stack solutions.
-          Passionate about DSA, having solved 600+ LeetCode questions.
-        </p>
+    <div>
+      <div className="Home">
+        <div className="intro">
+          <h1 className="heading-intro">
+            <p> Hi, I'm Vishal </p>
+            <span className="auto-type" ref={el} />
+          </h1>
+          <p className="description">
+            I specialize in React, JavaScript, and modern web development,
+            building fast and dynamic UIs. With expertise in MERN stack,
+            Node.js, Express.js, and MongoDB, I craft seamless full-stack
+            solutions. Passionate about DSA, having solved 600+ LeetCode
+            questions.
+          </p>
+        </div>
+        <br />
+        <br />
+
+        <Link to="/contact" className="linksBtn">
+          Connect Me
+        </Link>
+        <Link to="/projects" className="linksBtn">
+          See my Work
+        </Link>
+
+        <div className="tech-stacks">
+          <h1>Tech Stack & Skills I Work With </h1>
+          <h2>
+            From frontend to backend, the technologies that power my
+            development.
+          </h2>
+          <div className="languages">
+            <div className="logo-icon java">
+              <FaJava />
+              <p className="logo-name">JAVA</p>
+            </div>
+
+            <div className="logo-icon c">
+              <SiC />
+              <p className="logo-name">C</p>
+            </div>
+
+            <div className="logo-icon cpp">
+              <SiCplusplus />
+              <p className="logo-name">C++</p>
+            </div>
+          </div>
+
+          <div className="languages front-end">
+            <div className="logo-icon html">
+              <SiHtml5 />
+              <p className="logo-name">HTML 5</p>
+            </div>
+            <div className="logo-icon css">
+              <SiCss3 />
+              <p className="logo-name">CSS</p>
+            </div>
+            <div className="logo-icon js">
+              <SiJavascript />
+              <p className="logo-name">JavaScript</p>
+            </div>
+            <div className="logo-icon react">
+              <SiReact />
+              <p className="logo-name">React.js</p>
+            </div>
+          </div>
+
+          <div className="languages back-end">
+            <div className="logo-icon node">
+              <SiNodedotjs />
+              <p className="logo-name">Node.js</p>
+            </div>
+            <div className="logo-icon express">
+              <SiExpress />
+              <p className="logo-name">Express.js</p>
+            </div>
+          </div>
+
+          <div className="languages">
+            <div className="logo-icon mongodb">
+              <SiMongodb />
+              <p className="logo-name">MongoDB</p>
+            </div>
+
+            <div className="logo-icon mysql">
+              <SiMysql />
+              <p className="logo-name">MySQL</p>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+        </div>
       </div>
-      <br />
-      <br />
-
-      <Link to="/contact" className="linksBtn">Connect Me</Link>
-      <Link to="/projects" className="linksBtn">See my Work</Link>
-     
-      <div className="tech-stacks">
-        <h1>Tech Stack & Skills I Work With </h1>
-        <h2>
-          From frontend to backend, the technologies that power my development.
-        </h2>
-        <div className="languages">
-          <div className="logo-icon java">
-            <FaJava />
-            <p className="logo-name">JAVA</p>
-          </div>
-
-          <div className="logo-icon c">
-            <SiC />
-            <p className="logo-name">C</p>
-          </div>
-
-          <div className="logo-icon cpp">
-            <SiCplusplus />
-            <p className="logo-name">C++</p>
-          </div>
-        </div>
-
-        <div className="languages front-end">
-          <div className="logo-icon html">
-            <SiHtml5 />
-            <p className="logo-name">HTML 5</p>
-          </div>
-          <div className="logo-icon css">
-            <SiCss3 />
-            <p className="logo-name">CSS</p>
-          </div>
-          <div className="logo-icon js">
-            <SiJavascript />
-            <p className="logo-name">JavaScript</p>
-          </div>
-          <div className="logo-icon react">
-            <SiReact />
-            <p className="logo-name">React.js</p>
-          </div>
-        </div>
-
-        <div className="languages back-end">
-          <div className="logo-icon node">
-            <SiNodedotjs />
-            <p className="logo-name">Node.js</p>
-          </div>
-          <div className="logo-icon express">
-            <SiExpress />
-            <p className="logo-name">Express.js</p>
-          </div>
-        </div>
-
-        <div className="languages">
-          <div className="logo-icon mongodb">
-            <SiMongodb />
-            <p className="logo-name">MongoDB</p>
-          </div>
-
-          <div className="logo-icon mysql">
-            <SiMysql />
-            <p className="logo-name">MySQL</p>
-          </div>
-        </div>
-        <br />
-        <br />
-        <br />
-      </div>
-
-      <About/>
-      <Projects/>
-      <Contact/>
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 };
