@@ -72,16 +72,18 @@
 @media screen and (max-width: 768px) {
     .navbar {
         box-shadow: 2px 2px 1.5rem rgb(166, 166, 166);
+        height: 3rem;
     }
 
     .logo {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .menu-toggle {
         display: block;
         text-align: center;
         justify-content: center;
+         font-size: 1.2rem;
     }
 
     .nav-links {
