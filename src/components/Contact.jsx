@@ -7,7 +7,7 @@ const Contact = () => {
   const links = {
     linkedIn: "https://www.linkedin.com/in/vishal-kumar-8043b5302/",
     github: "https://github.com/Vishal-Kumar2006",
-    leetcode: "https://leetcode.com/u/9Fkvv6JpxM/",
+    leetcode: "https://leetcode.com/u/_vishaloo/",
     email: "vishalkumar438455@mail.com",
   };
 

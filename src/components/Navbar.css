@@ -72,7 +72,7 @@
 @media screen and (max-width: 768px) {
     .navbar {
         box-shadow: 2px 2px 1.5rem rgb(166, 166, 166);
-        height: 3rem;
+        height: 4rem;
     }
 
     .logo {
