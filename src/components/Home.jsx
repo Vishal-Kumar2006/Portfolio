@@ -1,10 +1,10 @@
 import "./Home.css";
 import Typed from "typed.js";
 import React from "react";
-import { Link } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import vishalImage from "./Vishal_image.jpg";
 import {
   SiC,
   SiCplusplus,
@@ -17,7 +17,9 @@ import {
   SiMongodb,
   SiMysql,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa"; // Using FontAwesome for Java
+import { GoProjectSymlink } from "react-icons/go";
+import { MdConnectWithoutContact } from "react-icons/md";
+import { FaJava, FaCloudDownloadAlt } from "react-icons/fa"; // Using FontAwesome for Java
 
 const Home = () => {
   // Create reference to store the DOM element containing the animation
@@ -27,8 +29,8 @@ const Home = () => {
     const typed = new Typed(el.current, {
       strings: [
         "Full-Stack Developer",
-        "JAVA - DSA",
-        "Solved 600 + LeetCode Problems",
+        "JAVA - Data Structures & Algorithms",
+        "Solved 1000 + LeetCode Problems",
         "MERN Stack Developer",
         "Frontend and Backend Developer",
       ],
@@ -43,29 +45,44 @@ const Home = () => {
     <div>
       <div className="Home">
         <div className="intro">
-          <h1 className="heading-intro">
-            <p> Hi, I'm Vishal </p>
-            <span className="auto-type" ref={el} />
-          </h1>
-          <p className="description">
-            I specialize in React, JavaScript, and modern web development,
-            building fast and dynamic UIs. With expertise in MERN stack,
-            Node.js, Express.js, and MongoDB, I craft seamless full-stack
-            solutions. Passionate about DSA, having solved 600+ LeetCode
-            questions.
-          </p>
+          <div className="left-section">
+            <h1 className="heading-intro">
+              <p> Hi, I'm Vishal Kumar </p>
+              <span className="auto-type" ref={el} />
+            </h1>
+            <p className="home-description">
+              I design and build scalable web applications with secure
+              authentication, efficient APIs, and real-world functionality.
+              Solved 1000+ DSA problems and built multiple full-stack systems
+              handling complex business logic. I don’t just write code — I
+              engineer reliable backend systems.
+            </p>
+          </div>
+          <div className="right-section">
+            <img src={vishalImage} alt="Vishal's Photo" />
+          </div>
         </div>
+
+        <div className="home-page-links">
+          <a href="/contact-form">
+            <MdConnectWithoutContact />
+            <p>Connect with me</p>
+          </a>
+          <a href="https://drive.google.com/file/d/1hWocVyt04ofxRHk_mdehveXWdZw7d-7-/view?usp=sharing">
+            <FaCloudDownloadAlt />
+            <p>Download CV </p>
+          </a>
+          <a href="/projects">
+            <GoProjectSymlink />
+            <p>See My Work</p>
+          </a>
+        </div>
+
         <br />
         <br />
+        <About />
 
-        <Link to="/contact" className="linksBtn">
-          Connect Me
-        </Link>
-        <Link to="/projects" className="linksBtn">
-          See my Work
-        </Link>
-
-        <div className="tech-stacks">
+        <div className="projects-tech-stacks">
           <h1>Tech Stack & Skills I Work With </h1>
           <h2>
             From frontend to backend, the technologies that power my
@@ -134,7 +151,7 @@ const Home = () => {
           <br />
         </div>
       </div>
-      <About />
+
       <Projects />
       <Contact />
     </div>

@@ -1,75 +1,100 @@
 import "./About.css";
 
-
 const About = () => {
   return (
     <div className="About">
-      <div className="profile-hero">
-        {/* Short Bio */}
-        <h2 className="name">Vishal Kumar</h2>
+      {/* Professional Summary */}
+      <div className="summary">
+        <p className="profile-description">
+          I'm a passionate developer with a background in BCA. I started coding
+          with C & C++, then explored Data Structures, Algorithms, and Web
+          Development. Solving complex problems and building interactive web
+          applications excites me!
+        </p>
+        <p>
+          I’m a Backend-focused MERN Stack Developer with strong problem-solving
+          skills (1000+ DSA problems solved on LeetCode). I specialize in
+          building secure, scalable web applications using Node.js, Express, and
+          MongoDB.
+        </p>
 
-        {/* Profile Picture */}
+        <p>
+          I have developed multiple full-stack projects with real-world features
+          like authentication, role-based authorization, REST APIs, and database
+          design.
+        </p>
 
-        <img src='https://i.postimg.cc/Cxsrht5h/vishal-Img.png' border='0'
-          className="profile-img"
-          alt="Vishal's Photo"
-          />
+        <p>
+          My focus is on writing clean backend logic, designing efficient APIs,
+          and solving complex problems with optimized solutions.
+        </p>
       </div>
 
-      <p className="profile-description">
-        I'm a passionate developer with a background in BCA. I started coding
-        with C & C++, then explored Data Structures, Algorithms, and Web
-        Development. Solving complex problems and building interactive web
-        applications excites me!
-      </p>
+      <br />
+      <br />
 
-      {/* Skills & Strengths */}
-      <div className="skills-strength ">
-        <h3 className="skills">Skills & Strengths</h3>
+      {/* Skills */}
+      <div className="about-sections skills-strength">
+        <h3>Technical Skills</h3>
         <hr />
         <ul className="lists">
-          <li className="skill">🚀 Languages: Java DSA, C, C++</li>
-          <li className="skill">
-            🚀 Problem-Solving: LeetCode <b className="bold">600+</b> questions
-            solved
+          <li>
+            🚀 <b>Languages:</b> Java, JavaScript
           </li>
-          <li className="skill">🔥 Frontend: HTML, CSS, JavaScript, React.js </li>
-          <li className="skill">🔥 Back-end: Node.js, Express.js </li>
-          <li className="skill">🔥 Database: MySQL, MongoDB </li>
-          <li className="skill">📚 Data Structures & Algorithms</li>
-          <li className="skill">💡 Strong Logical & Analytical Thinking</li>
+          <li>
+            🔥 <b>Frontend:</b> HTML, CSS, Bootstrap, React.js
+          </li>
+          <li>
+            ⚙️ <b>Backend:</b> Node.js, Express.js, REST APIs, JWT
+          </li>
+          <li>
+            🗄️ <b>Databases:</b> MongoDB, MySQL
+          </li>
+          <li>
+            📚 <b>Core:</b> DSA, OOP, DBMS, OS
+          </li>
+          <li>
+            🛠️ <b>Tools:</b> Git, GitHub, Postman, VS Code
+          </li>
         </ul>
       </div>
-      
-      <br /><br /><br />
-      {/* Fun Fact */}
-      <div className="fun-fact">
-        <h3 className="fun-heading">Fun Fact</h3>
+
+      <br />
+      <br />
+
+      {/* Highlights */}
+      <div className="highlights about-sections">
+        <h3>Key Highlights</h3>
         <hr />
-        <p className="fun-para">
-          🛠️ I'm a passionate developer with a background in BCA.
-        </p>
+        <ul className="lists">
+          <li>
+            💡 <b>Solved 1000+ DSA</b> problems on LeetCode
+          </li>
+          <li>
+            🚀 Built 15+ project and <b>6+ full-stack MERN applications</b>{" "}
+          </li>
+          <li>
+            🔐 Built secure apps using JWT Authentication & Role-Based Access
+          </li>
+          <li>📦 Developed REST APIs with full CRUD functionality</li>
+          <li>⚡ Designed scalable MongoDB schemas for real-world apps</li>
+        </ul>
+      </div>
 
-        <p className="fun-para">
-          I started coding with C & C++, then explored Data Structures,
-          Algorithms, and Web Development.
-        </p>
+      <br />
+      <br />
 
-        <p className="fun-para">
-        🎯 Solving complex problems and building interactive web applications
-          excites me! But beyond coding, I'm also deeply into filmmaking,
-          cinematography, and storytelling.
-        </p>
-
-        <p className="fun-para">
-          🎵 I love writing songs, poems, and screenplays, and I dream of making a
-          high-action movie packed with stunning VFX someday.
-        </p>
-
-        <p className="fun-para">
-          ✨ Whether it's crafting code or crafting stories, I believe in
-          bringing imagination to life!
-        </p>
+      {/* Personality (Controlled, not distracting) */}
+      <div className="about-sections extra">
+        <h3>Beyond Code</h3>
+        <hr />
+        <ul className="lists">
+          <li>
+            I enjoy storytelling, filmmaking, and writing. These interests help
+            me think creatively and build user-focused applications with better
+            design and experience.
+          </li>
+        </ul>
       </div>
     </div>
   );

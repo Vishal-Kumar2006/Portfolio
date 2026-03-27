@@ -137,7 +137,6 @@
     margin: 1rem;
     border-radius: 0.2rem;
   }
-  
 }
 
 @media screen and (max-width: 440px) {
@@ -153,7 +152,7 @@
 
   .project-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -169,11 +168,8 @@
     margin: 1rem;
     border-radius: 0.2rem;
   }
-  
+
   .details {
     margin-bottom: 1rem;
   }
-
-  
-
 }
