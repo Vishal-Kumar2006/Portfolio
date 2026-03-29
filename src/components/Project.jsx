@@ -6,9 +6,12 @@ const Project = ({ project }) => {
       <div className="detail">
         <div className="left-Part">
           <div className="video">
-            <video className="project-video" autoPlay muted loop playsInline>
-              <source src={project.video} type="video/mp4" />
-            </video>
+            <iframe
+              className="project-video"
+              src={project.video}
+              title={project.name}
+              frameBorder="0"
+              allowFullScreen></iframe>
           </div>
         </div>
 
