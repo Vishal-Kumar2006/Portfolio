@@ -4,7 +4,7 @@ import "./Projects.css";
 const projects = [
   // ParkEase: A Smart Parking PlatForm: Deployed (Need Check in)
   {
-    name: "ParkEase: Smart Parking Platform",
+    name: "ParkEase: Smart Parking Booking Platform",
     video:
       "https://www.youtube.com/embed/vfLm4jlTlgc?autoplay=1&mute=1&loop=1&playlist=vfLm4jlTlgc",
     description:
@@ -16,14 +16,14 @@ const projects = [
 
   // SAHK: A Recipe Website : Not deployed (Need Deployment)
   {
-    name: "SAHK: Recipe Discovery Platform",
+    name: "CookSy: Recipe Discovery Platform",
     video:
       "https://www.youtube.com/embed/DnUhI-_ySDU?autoplay=1&mute=1&loop=1&playlist=DnUhI-_ySDU",
     description:
       "A full-stack MERN application for discovering recipes based on meal types and cooking methods. Designed dynamic filtering logic and structured REST APIs to efficiently handle categorized data. Focused on scalable backend design and intuitive user experience.",
     techStack: "React.js, Node.js, Express.js, MongoDB",
     github: "https://github.com/Vishal-Kumar2006/SAHK",
-    demo: "https://github.com/Vishal-Kumar2006/SAHK",
+    demo: "https://sahk-frontend.onrender.com",
   },
 
   // MeetHub: A Zoom Meetig Clone Website : Deployed (Need Check in)
