@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import vishalImage from "./Vishal_image.jpg";
+import { useNavigate } from "react-router-dom";
 import {
   SiC,
   SiCplusplus,
@@ -24,6 +25,7 @@ import { FaJava, FaCloudDownloadAlt } from "react-icons/fa"; // Using FontAwesom
 const Home = () => {
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
+  const navigate = useNavigate();
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -64,7 +66,8 @@ const Home = () => {
         </div>
 
         <div className="home-page-links">
-          <a href="/contact-form">
+          <a>
+            {(onclick = () => navigate("/contact-form"))}
             <MdConnectWithoutContact />
             <p>Connect with me</p>
           </a>
@@ -72,7 +75,8 @@ const Home = () => {
             <FaCloudDownloadAlt />
             <p>Download CV </p>
           </a>
-          <a href="/projects">
+          <a>
+            {(onclick = () => navigate("/projects"))}
             <GoProjectSymlink />
             <p>See My Work</p>
           </a>

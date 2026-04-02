@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ContactForm from "./components/ContactForm.jsx";
-import bg_video from "./BG_video.mp4";
+import bg_Image from "./BG_Image.jpg";
 
 import "./App.css";
 import "./Body.css";
@@ -15,9 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <video className="bg-video" autoPlay loop muted playsInline>
-          <source src={bg_video} type="video/mp4" />
-        </video>
+        <img className="bg-video" src={bg_Image}></img>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
