@@ -66,8 +66,7 @@ const Home = () => {
         </div>
 
         <div className="home-page-links">
-          <a>
-            {(onclick = () => navigate("/contact-form"))}
+          <a href="/contact-form">
             <MdConnectWithoutContact />
             <p>Connect with me</p>
           </a>
@@ -75,8 +74,7 @@ const Home = () => {
             <FaCloudDownloadAlt />
             <p>Download CV </p>
           </a>
-          <a>
-            {(onclick = () => navigate("/projects"))}
+          <a href="/projects">
             <GoProjectSymlink />
             <p>See My Work</p>
           </a>
