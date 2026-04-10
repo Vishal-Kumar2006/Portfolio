@@ -47,7 +47,7 @@ const projects = [
       "Built a full-stack property listing platform inspired by Airbnb, implementing server-side rendering using EJS and a RESTful backend with Node.js and Express. Designed relational data models for users and listings, integrated secure authentication using Passport.js, and handled image uploads via Cloudinary. Focused on backend architecture, dynamic content delivery, and real-world application flow.",
     techStack: "Node.js, Express.js, MongoDB, EJS, Passport.js, Cloudinary",
     github: "https://github.com/Vishal-Kumar2006/Wanderlust",
-    demo: "https://github.com/Vishal-Kumar2006/Wanderlust",
+    demo: "https://wanderlust-project-z0uo.onrender.com/listings",
   },
 
   // Employee Shift Management : Not Deployed(Need Deployment)
