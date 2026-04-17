@@ -12,7 +12,7 @@ const About = () => {
           applications excites me!
         </p>
         <p>
-          I’m a Backend-focused MERN Stack Developer with strong problem-solving
+          I'm a Backend-focused MERN Stack Developer with strong problem-solving
           skills (1000+ DSA problems solved on LeetCode). I specialize in
           building secure, scalable web applications using Node.js, Express, and
           MongoDB.

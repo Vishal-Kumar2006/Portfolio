@@ -70,7 +70,7 @@ const Home = () => {
             <MdConnectWithoutContact />
             <p>Connect with me</p>
           </a>
-          <a href="https://drive.google.com/file/d/1hWocVyt04ofxRHk_mdehveXWdZw7d-7-/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/19hUHpfUkVJQ32rvLt1vyDdZQ4mUww_n-/view?usp=drive_link">
             <FaCloudDownloadAlt />
             <p>Download CV </p>
           </a>
