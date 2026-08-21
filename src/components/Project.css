@@ -1,0 +1,239 @@
+.Project {
+  display: flex;
+  flex-direction: column;
+  margin: 20rem 5rem;
+  padding: 0;
+  background-color: #4b44ffbc;
+  border-radius: 0 0 1.2rem 1.2rem;
+  box-shadow: 2px 4px 10px rgb(77, 77, 77);
+}
+
+.detail {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.left-Part {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  border: 1px solid rgba(238, 238, 238, 0.425);
+  height: fit-content;
+}
+
+.video {
+  backdrop-filter: blur(2px);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+.right-Part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  background-color: #ffffff;
+  backdrop-filter: blur(2px);
+  padding: 0.5rem;
+}
+
+.right-Part h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.description {
+  color: rgb(50, 50, 50);
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.tech-stacks {
+  color: rgb(45, 45, 45);
+  font-size: 1rem;
+}
+
+.project-links {
+  display: flex;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.project-links div {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-link {
+  width: 64%;
+}
+
+.github-link {
+  width: 36%;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.project-link-anchor-tag {
+  color: rgba(201, 201, 201, 0.6);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: block;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.project-link-anchor-tag:hover {
+  color: rgb(255, 255, 255);
+  background-color: #4a44ffcc;
+  border-radius: 0 0 1rem 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .Project {
+    margin: 10rem 3rem;
+  }
+
+  .right-Part h2 {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .description {
+    color: rgb(50, 50, 50);
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+  }
+
+  .tech-stacks {
+    color: rgb(33, 33, 33);
+    margin: 0;
+    font-size: 0.8rem;
+  }
+
+  .demo-link {
+    width: 64%;
+  }
+
+  .project-link-anchor-tag {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .Project {
+    margin: 10rem 4rem;
+  }
+
+  .left-Part {
+    width: 100%;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-video {
+    width: 100%;
+  }
+
+  .right-Part {
+    width: 97%;
+    padding: 1.5%;
+  }
+  .right-Part h2 {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    margin: 0 0.3rem;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  .tech-stacks {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    font-size: 0.8rem;
+  }
+
+  .demo-link {
+    width: 50%;
+  }
+
+  .project-link-anchor-tag {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Project {
+    margin: 10rem 0.5rem;
+  }
+
+  .left-Part {
+    width: 100%;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-Part {
+    width: 98%;
+    padding: 1%;
+  }
+  .right-Part h2 {
+    font-size: 1.1rem;
+    margin: 0.2rem 0;
+  }
+
+  .description {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+  }
+
+  .tech-stacks {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    font-size: 0.85rem;
+  }
+
+  .demo-link {
+    width: 50%;
+  }
+
+  .github-link {
+    width: 50%;
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .project-link-anchor-tag {
+    font-size: 1rem;
+    padding: 1rem;
+    display: block;
+  }
+
+  .project-link-anchor-tag:hover {
+    color: rgb(255, 255, 255);
+    background-color: #4a44ffcc;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 0 5rem rgb(146, 181, 255);
+  }
+}

@@ -1,0 +1,87 @@
+.About {
+  margin: 10rem 5rem;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6%;
+  color: rgba(255, 255, 255, 0.604);
+}
+
+.summary p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.about-sections {
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.about-sections h3 {
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.899);
+}
+
+.lists li {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.lists li b {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .About {
+    margin: 8rem 4rem;
+  }
+
+  .summary {
+    margin: 0 4%;
+  }
+
+  .summary p {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .about-sections h3 {
+    font-size: 2rem;
+  }
+
+  .lists li {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .About {
+    margin: 5rem 1rem;
+  }
+
+  .summary {
+    margin: 0 1%;
+  }
+
+  .summary p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-sections {
+    margin: 0 0.4rem;
+  }
+
+  .about-sections h3 {
+    font-size: 1.5rem;
+  }
+
+  .lists li {
+    font-size: 0.8rem;
+  }
+}

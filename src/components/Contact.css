@@ -1,0 +1,193 @@
+.contact {
+  margin: 10rem 0;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.sub-heading {
+  color: rgb(199, 199, 199);
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.contact-details-and-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 10rem 0;
+}
+
+.contact-link {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3rem;
+  width: 40rem;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.connect-link {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: none;
+  padding: 2rem;
+  border-radius: 3rem;
+  background-color: #fdffef9f;
+}
+
+.connect-link:hover {
+  background-color: #fdffefe0;
+}
+
+.contact-link-achievements-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-link-achievements-details p b {
+  font-size: 1.5rem;
+}
+
+#email {
+  color: #d14836;
+  box-shadow: 0 0 2rem #ff8673;
+  transition: 0.3s;
+}
+
+#email:hover {
+  box-shadow: 0 0 5rem #c26e62;
+  border-radius: 3rem;
+}
+
+#github {
+  color: #2e2e2e;
+  box-shadow: 0 0 2rem #efefef;
+  transition: 0.3s;
+}
+
+#github:hover {
+  box-shadow: 0 0 5rem #9d9d9d;
+  border-radius: 3rem;
+}
+
+#leetcode {
+  color: #ffa116;
+  box-shadow: 0 0 2rem #ff9900;
+  transition: 0.3s;
+}
+
+#leetcode:hover {
+  box-shadow: 0 0 5rem #ffa116;
+  border-radius: 3rem;
+}
+
+#linkedin {
+  color: #0077b5;
+  box-shadow: 0 0 2rem #00a6ff;
+  transition: 0.3s;
+}
+
+#linkedin:hover {
+  box-shadow: 0 0 5rem #0077b5;
+  border-radius: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .contact-details-and-links {
+    margin: 5rem 0;
+    gap: 4rem;
+  }
+
+  .contact-link {
+    width: 25rem;
+    margin: 6rem;
+  }
+
+  .connect-link {
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 2rem;
+  }
+
+  .contact-link-achievements-details {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .contact-link-achievements-details p b {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+  .contact-link {
+    width: 97%;
+    margin: 5% 1.5%;
+    background-color: #fff;
+  }
+
+  .connect-link {
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 3rem;
+  }
+
+  .contact-link-achievements-details {
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .contact-link-achievements-details p b {
+    font-size: 1rem;
+  }
+
+  #email {
+    box-shadow: 0 0 5rem #c26e62;
+  }
+
+  #github {
+    box-shadow: 0 0 5rem #9d9d9d;
+  }
+
+  #leetcode {
+    box-shadow: 0 0 5rem #ffa116;
+  }
+
+  #linkedin {
+    box-shadow: 0 0 5rem #0077b5;
+  }
+}

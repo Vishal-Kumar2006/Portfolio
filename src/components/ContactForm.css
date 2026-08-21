@@ -1,0 +1,132 @@
+.ContactForm {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 60%;
+  margin: 15%;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem white;
+}
+
+.connection-form-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input label {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.input input {
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+  background-color: #ffffffcd;
+  color: rgb(0, 0, 0);
+}
+
+.input textarea {
+  min-width: 98%;
+  max-width: 98%;
+  max-height: 15rem;
+  min-height: 15rem;
+  font-size: 1rem;
+  padding: 1%;
+  border: none;
+  outline: none;
+  background-color: #ffffffcd;
+  color: rgb(0, 0, 0);
+  border-radius: 0.2rem;
+}
+
+.ContactForm button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  transition: linear;
+  transition-duration: 0.2s;
+}
+
+.ContactForm button:hover {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.result {
+  margin: 2rem 0 0 0;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .ContactForm {
+    width: 70%;
+    margin: 40% 9%;
+  }
+
+  .connection-form-heading {
+    font-size: 1.8rem;
+  }
+
+  .input label {
+    font-size: 1rem;
+  }
+  .input input {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+
+  .input textarea {
+    max-height: 12rem;
+    min-height: 12rem;
+    font-size: 1rem;
+  }
+
+  .result {
+    margin: 2rem 0 0 0;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ContactForm {
+    width: 88%;
+    margin: 40% 2%;
+    padding: 4%;
+    border-radius: 1rem;
+  }
+  .connection-form-heading {
+    font-size: 1.5rem;
+  }
+
+  .input label {
+    font-size: 1rem;
+  }
+  .input input {
+    font-size: 1rem;
+  }
+
+  .ContactForm button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .result {
+    margin: 2rem 0 0 0;
+    font-size: 1rem;
+  }
+}
