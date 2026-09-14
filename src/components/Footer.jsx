@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail, SiLeetcode } from "react-icons/si";
@@ -25,7 +24,12 @@ const Footer = ({ scrollToSection }) => {
 
         {/* Navigation Links */}
         <div className="footer-links">
-          <button onClick={() => handleNavigation("home")}>Home</button>
+          <button
+            onClick={() => {
+              handleNavigation("home");
+            }}>
+            Home
+          </button>
 
           <button onClick={() => handleNavigation("projects")}>Projects</button>
 

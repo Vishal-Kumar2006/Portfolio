@@ -18,7 +18,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 1.2rem 0;
 }
 
 .sub-heading {
@@ -127,7 +127,7 @@
 
   .contact-details-and-links {
     margin: 5rem 0;
-    gap: 4rem;
+    gap: 1rem;
   }
 
   .contact-link {
@@ -166,7 +166,7 @@
   }
   .contact-link {
     width: 90%;
-    margin: 20% 1%;
+    margin: 20% 5%;
     background-color: #fff;
   }
 
@@ -180,6 +180,29 @@
   .contact-link-achievements-details {
     gap: 0.5rem;
     font-size: 0.75rem;
+  }
+
+  .contact-link-achievements-details p b {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contact {
+    width: 85%;
+    margin: 10rem 7.5%;
+  }
+
+  .connect-link {
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 3rem;
+  }
+
+  .contact-link-achievements-details {
+    gap: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .contact-link-achievements-details p b {

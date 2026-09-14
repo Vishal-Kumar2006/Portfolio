@@ -27,14 +27,17 @@
   margin-bottom: 2rem;
 }
 
-.footer-links a {
+.footer-links button {
   text-decoration: none;
   font-size: 1.5rem;
   color: rgb(103, 103, 103);
   transition: color 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
-.footer-links a:hover {
+.footer-links button:hover {
   color: white;
 }
 
@@ -97,7 +100,7 @@
 }
 
 @media (max-width: 480px) {
-  .footer-links a {
+  .footer-links button {
     font-size: 1.2rem;
   }
 

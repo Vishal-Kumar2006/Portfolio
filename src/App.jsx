@@ -78,7 +78,7 @@ function App() {
         <Contact />
         <ContactForm />
       </main>
-      <Footer />
+      <Footer scrollToSection={scrollToSection} />
     </div>
   );
 }

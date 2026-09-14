@@ -5,9 +5,7 @@ import ProConnect from "../../public/ProConnect.png";
 import CookSy from "../../public/CookSy.png";
 import MeetHub from "../../public/MeetHub.png";
 import WanderLust from "../../public/WanderLust.png";
-
 import Shift_Mang from "../../public/Shift_Mang.png";
-
 import WeatherApp from "../../public/WeatherApp.png";
 
 import ProjectPage from "./ProjectPage.jsx";
@@ -103,10 +101,6 @@ const Projects = () => {
           <p>Please Scrool Up</p>
         </div>
       </Reveal>
-      {/* {projects.map((p, idx) => {
-        return <Project key={idx} project={p} />;
-      })} */}
-
       <ProjectPage projects={projects} />
     </section>
   );
