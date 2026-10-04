@@ -1,0 +1,48 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 450px;
+  height: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .swiper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .swiper-slide {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiper {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+
+  .swiper-slide {
+    width: 320px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .swiper {
+    padding-top: 15px;
+  }
+
+  .swiper-slide {
+    width: 260px;
+    padding: 0;
+    margin: 0;
+  }
+}
