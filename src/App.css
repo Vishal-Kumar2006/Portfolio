@@ -19,14 +19,12 @@
   width: 2rem;
   border-radius: 50%;
   background-color: #ffffff0b;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
   border: 2px solid rgb(215, 227, 255);
+  box-shadow: 0 0 2rem rgb(254, 255, 255);
   position: fixed;
   font-size: 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   user-select: none;
   pointer-events: none;
   z-index: 10000;
