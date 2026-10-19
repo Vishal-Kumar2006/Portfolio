@@ -75,7 +75,7 @@ const Home = ({ scrollToSection }) => {
               className=""
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/17lrsVtKUtMVIDs2UJdLsMCkODd1Vtqjf/view?usp=drive_link",
+                  "https://drive.google.com/file/d/10myUZIiJV0mafC4tgeM83hmdYLaYrDDv/view?usp=sharing",
                   "_blank",
                 );
               }}>
